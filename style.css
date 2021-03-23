@@ -122,6 +122,9 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
+    .about-main-hero {
+        flex-wrap: wrap;
+    }
 }
 
 @media(min-width:992px) {
@@ -230,6 +233,9 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
+    .about-main-hero-info {
+        margin: 50px 0;
+    }
 }
 
 @media(max-width:767px) {
@@ -299,6 +305,9 @@
     .navigation.active-menu > .submenu {
         text-align: center;
     }
+    .about-main-hero {
+        flex-wrap: wrap;
+    }
 }
 
 
@@ -308,6 +317,7 @@
 .header {
     max-height: 90px;
     line-height: 90px;
+    background-color: #FFFFFF;
     border-bottom: 2px solid #E4E4E4;
     position: sticky;
     top: 0;
@@ -347,3 +357,79 @@
 
 
 /* Main */
+
+/* Main hero */
+
+.about-main-hero {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0;
+}
+.about-main-hero-picture {
+    margin-bottom: 30px;
+}
+.about-main-hero-picture img {
+    max-width: 100%;
+}
+.about-main-hero-info-head {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #171717;
+    margin-bottom: 10px;
+}
+.about-main-hero-info-body, .category {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+}
+.about-main-hero-info-body h4, .category {
+    font-size: 16px;
+    line-height: 26px;
+    color: #171717;
+    margin-bottom: 15px;
+}
+.about-main-hero-info-body p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+    margin-bottom: 5px;
+}
+.about-main-hero-info-body h6 {
+    font-size: 12px;
+    line-height: 24px;
+    color: #666666;
+    margin-bottom: 15px;
+}
+.category p {
+    margin-bottom: 5px;
+    text-align: right;
+    margin-right: 12px;
+}
+.category p a {
+    text-decoration: none;
+    color: #171717;
+    font-weight: 700;
+}
+.button {
+    width: 230px;
+    height: 50px;
+    background-color: #171717;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    display: block;
+    margin: 0 auto;
+    outline: none;
+}
+.button:hover {
+    background-color: #FFFFFF;
+    color: #171717;
+    border: 2px solid #171717;
+}
