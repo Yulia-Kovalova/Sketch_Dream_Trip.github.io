@@ -556,7 +556,7 @@
 
 /* Sidebar - row 3 columns */
 
-.sidebar-author {
+.sidebar-author, .most-popular {
     padding: 30px 15px 35px;
     background-color: #FFFFFF;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.08);
@@ -611,4 +611,25 @@
     margin-left: 6px;
     margin-top: 10px;
     text-decoration: none;
+}
+.most-popular {
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    color: #171717;
+}
+.most-popular h2 {
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.most-popular-item img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.most-popular-item h4 {
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 55px;
 }
