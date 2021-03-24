@@ -430,7 +430,7 @@
     font-size: 14px;
     line-height: 24px;
     color: #666666;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 .about-main-hero-info-body h6 {
     font-size: 12px;
@@ -440,7 +440,7 @@
 }
 .category p {
     text-align: right;
-    margin-right: 12px;
+    margin-right: 5px;
 }
 .category p a {
     text-decoration: none;
@@ -512,7 +512,7 @@
     line-height: 24px;
     font-weight: 400;
     color: #666666;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 .article-item-text h6 {
     font-size: 12px;
