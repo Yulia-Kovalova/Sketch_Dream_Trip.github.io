@@ -134,6 +134,12 @@
     .button {
         width: 100px;
     }
+    .author-pic-name {
+        flex-direction: column;
+    }
+    .author-icons, .icons {
+        flex-wrap: wrap;
+    }
 }
 
 @media(min-width:992px) {
@@ -194,6 +200,9 @@
     .about-main-hero-button, .button {
         width: 160px;
     }
+    .author-pic-name {
+        flex-direction: row;
+    }
 }
 
 @media(min-width:1200px) {
@@ -253,6 +262,9 @@
     }
     .about-main-hero-button, .button {
         width: 200px;
+    }
+    .author-pic-name {
+        flex-direction: row;
     }
 }
 
@@ -454,7 +466,6 @@
     border: 2px solid #FFFFFF;
     color: #FFFFFF;
     font-family: 'Mulish', sans-serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 18px;
@@ -470,14 +481,14 @@
 
 
 
-/* Main row */
+/* Articles - row 9 columns */
 
 .main-row-9-3-cols {
     display: flex;
+    margin: 30px 0;
 }
 .article-items {
     display: flex;
-    margin: 30px 0;
 }
 .article-item {
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.08);
@@ -528,7 +539,6 @@
     border: 2px solid #FFFFFF;
     color: #FFFFFF;
     font-family: 'Mulish', sans-serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 18px;
@@ -540,4 +550,65 @@
     background-color: #FFFFFF;
     color: #171717;
     border: 2px solid #171717;
+}
+
+
+
+/* Sidebar - row 3 columns */
+
+.sidebar-author {
+    padding: 30px 15px 35px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.08);
+}
+.author-pic-name {
+    display: flex;
+}
+.author-pic img {
+    border-radius: 50%;
+}
+.author-name {
+    margin: 20px 0 0 15px;
+    font-family: 'Mulish', sans-serif;
+}
+.author-name h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #171717;
+    margin-bottom: 10px;
+}
+.author-name h4 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #999999;
+}
+.author-hi-words {
+    padding: 25px 0 15px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #666666;
+    border-bottom: 1px solid #E5E5E5;
+    margin-bottom: 15px;
+}
+.author-icons, .icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.view-on {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #666666;
+}
+.icons a {
+    height: 34px;
+    margin-left: 6px;
+    margin-top: 10px;
+    text-decoration: none;
 }
