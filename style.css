@@ -556,7 +556,7 @@
 
 /* Sidebar - row 3 columns */
 
-.sidebar-author, .most-popular, .categories, .recent-comments {
+.sidebar-author, .most-popular, .categories, .recent-comments, .tegs {
     padding: 30px 15px 40px;
     background-color: #FFFFFF;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.08);
@@ -599,7 +599,7 @@
     justify-content: space-between;
     align-items: center;
 }
-.view-on {
+.view-on, .tegs-items div {
     font-family: 'Mulish', sans-serif;
     font-weight: 400;
     font-size: 12px;
@@ -612,12 +612,12 @@
     margin-top: 10px;
     text-decoration: none;
 }
-.most-popular,.categories h2, .recent-comments h2 {
+.most-popular,.categories h2, .recent-comments h2, .tegs h2 {
     font-family: 'Mulish', sans-serif;
     font-size: 16px;
     color: #171717;
 }
-.most-popular h2, .categories h2, .recent-comments h2 {
+.most-popular h2, .categories h2, .recent-comments h2, .tegs h2 {
     font-weight: 700;
     line-height: 20px;
     text-align: center;
@@ -647,13 +647,6 @@
     border: 1px solid #979797;
     margin-right: 10px;
 }
-/* .category-item p {
-    font-family: 'Mulish', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-    color: #666666;
-} */
 .category-item a {
     text-decoration: none;
     font-family: 'Mulish', sans-serif;
@@ -676,7 +669,25 @@
 }
 .recent-comments p:last-child {
     border-bottom: none;
+    padding-bottom: 0;
 }
 .recent-comments span {
     font-weight: 600;
 }
+.tegs h2 {
+    margin-bottom: 25px;
+}
+.tegs-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+.tegs-items div {
+    margin: 5px;
+    padding: 8px 10px;
+    background-color: #F5F5F5;
+}
+
+
+
+/* Follow on Instagram */
+
